@@ -58,17 +58,18 @@ popularity 60점 이상을 ‘인기곡(1)’, 미만을 ‘비인기곡(0)’�
 
 ## ⚙️ 분석 흐름 요약
 
-데이터 로드
-↓
-EDA (분포 확인, 상관관계 분석)
-↓
-전처리 (컬럼 제거, 로그 변환, 스케일링, VIF)
-↓
-모델 학습 (Logistic, RF, XGB, SVM)
-↓
-성능 비교 (AUC, F1-score, Confusion Matrix)
-↓
+데이터 로드  
+↓  
+EDA (분포 확인, 상관관계 분석)  
+↓  
+전처리 (컬럼 제거, 로그 변환, 스케일링, VIF)  
+↓  
+모델 학습 (Logistic, RF, XGB, SVM)  
+↓  
+성능 비교 (AUC, F1-score, Confusion Matrix)  
+↓  
 변수 중요도 분석 (Feature Importance, SHAP)
+
 
 ## 🧩 프로젝트 전체 기술 스택
 
