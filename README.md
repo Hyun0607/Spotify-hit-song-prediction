@@ -6,7 +6,7 @@
 
 ## 📌 프로젝트 개요
 
-본 프로젝트는 **다양한 음악적 척도(오디오 특성)**만으로 곡의 인기도를 예측할 수 있는지 분석하는 것을 목표로 진행되었습니다.  
+본 프로젝트는 **다양한 음악적 척도(오디오 특성)** 만으로 곡의 인기도를 예측할 수 있는지 분석하는 것을 목표로 진행되었습니다.  
 이는 신곡을 제작하는 음악 산업 종사자들이 인기곡의 특징을 사전에 파악하는 데 도움을 줄 수 있습니다.  
 여러 인기 척도 변수가 존재하나, 본 프로젝트에서는 **Kaggle에서 제공한 Spotify 오디오 특성 데이터셋**만을 활용했습니다.
 
@@ -80,3 +80,46 @@ EDA (분포 확인, 상관관계 분석)
 | 모델링 | scikit-learn(Logistic, RF, SVM), XGBoost |
 | 모델 해석 | SHAP |
 | 개발 환경 | Google Colab |
+
+
+---
+
+## 🧩 프로젝트 전체 기술 스택
+
+| 영역 | 도구 |
+|------|------|
+| 데이터 처리 | pandas, numpy |
+| 시각화 | matplotlib, seaborn |
+| 모델링 | scikit-learn(Logistic, RF, SVM), XGBoost |
+| 모델 해석 | SHAP |
+| 개발 환경 | Google Colab |
+
+---
+
+## 🔍 평가 지표
+
+- **Confusion Matrix**
+- **AUC (Area Under the Curve)**
+- **F1-score**
+
+| 모델 | AUC | F1-score |
+|------|-----|----------|
+| Logistic Regression | 예: 0.xx | 예: 0.xx |
+| Random Forest | 예: 0.xx | 예: 0.xx |
+| XGBoost | 예: 0.xx | 예: 0.xx |
+| SVM | 예: 0.xx | 예: 0.xx |
+
+---
+
+## 🧪 분석 결과
+
+- **중요 변수**: Loudness, Energy, Danceability 등이 인기곡 예측에 높은 기여
+- **시각화**:
+  - Confusion Matrix (모델별)
+  - ROC Curve
+  - Feature Importance Barplot
+  - SHAP Summary Plot
+
+✅ *다양한 음악적 특성만으로도 인기곡 예측이 가능함을 확인*  
+✅ *특히 음량(Loudness)과 에너지(Energy) 특성이 예측에 크게 기여함*
+
